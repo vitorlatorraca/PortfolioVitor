@@ -7,8 +7,8 @@ import ProjectTag from "./ProjectTag";
 const projectsData = [
   {
     id: 1,
-    title: "FuteGram",
-    description: "My creation, a social network focused on football.",
+    title: "Time Tracker",
+    description: "A school project done in a group with the aim of creating a Time Tracker that monitors the entry and exit of employees in a company.",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/vitorlatorraca/futeGram",
@@ -46,15 +46,6 @@ const projectsData = [
     title: "Password Generator",
     description: "Authentication and CRUD operations",
     image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "https://globo.com",
-  },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "https://globo.com",

@@ -16,12 +16,12 @@ const achievementsList = [
   },
   {
     metric: "Conections on Linkedin",
-    value: "500+",
+    value: "50+",
     postfix: "+",
   },
   {
     metric: "Certificates",
-    value: "7",
+    value: "2",
   },
 ];
 

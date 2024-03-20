@@ -1,45 +1,45 @@
 "use client";
-import React, { useState, useRef } from "react";
+import { motion, useInView } from "framer-motion";
+import { useRef, useState } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
-import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
+    title: "FuteGram",
+    description: "My creation, a social network focused on football.",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/vitorlatorraca/futeGram",
+    previewUrl: "https://globo.com",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "Apple Clone Website",
+    description: "I replicated the Apple website to better understand the concepts of React.",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/vitorlatorraca/AppleCloneVitorLatorraca",
+    previewUrl: "https://globo.com",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
+    title: "Nike Website",
+    description: "I replicated the Apple website to better understand the concepts of React.",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/vitorlatorraca/NikeWebsiteVitor",
+    previewUrl: "https://globo.com",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
+    title: "Corinthians Website",
+    description: "I created this website to talk a bit about Corinthians along with a store using only HTML, CSS, and JS.",
     image: "/images/projects/4.png",
     tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/vitorlatorraca/CorinthiansHTML",
+    previewUrl: "https://globo.com",
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const projectsData = [
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://globo.com",
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const projectsData = [
     image: "/images/projects/6.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://globo.com",
   },
 ];
 

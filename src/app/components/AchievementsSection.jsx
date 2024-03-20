@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import dynamic from "next/dynamic";
 
 const AnimatedNumbers = dynamic(
@@ -11,22 +10,18 @@ const AnimatedNumbers = dynamic(
 
 const achievementsList = [
   {
-    metric: "Projects",
-    value: "100",
+    metric: "Projects on Github",
+    value: "12",
+    postfix: "",
+  },
+  {
+    metric: "Conections on Linkedin",
+    value: "500+",
     postfix: "+",
   },
   {
-    prefix: "~",
-    metric: "Users",
-    value: "100,000",
-  },
-  {
-    metric: "Awards",
+    metric: "Certificates",
     value: "7",
-  },
-  {
-    metric: "Years",
-    value: "5",
   },
 ];
 

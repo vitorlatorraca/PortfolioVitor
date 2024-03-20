@@ -1,6 +1,6 @@
 "use client";
-import React, { useTransition, useState } from "react";
 import Image from "next/image";
+import { useState, useTransition } from "react";
 import TabButton from "./TabButton";
 
 const TAB_DATA = [
@@ -57,12 +57,12 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+          I am a Computer Programming student at Georgian ILAC in Toronto, dedicated to honing my skills in web development.
+          With a solid foundation in MySQL, JavaScript, React, Node.js, HTML, CSS, and Git, I am eager to embark on my journey as a developer.
+          My focus is on securing an internship to gain practical experience in the field.
+          I am a motivated learner, always seeking opportunities to expand my knowledge and proficiency.
+          As a team-oriented individual, I am excited about the prospect of collaborating with others to build innovative and impactful
+          applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

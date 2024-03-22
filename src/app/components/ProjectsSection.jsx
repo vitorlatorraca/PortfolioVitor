@@ -39,7 +39,7 @@ const projectsData = [
     image: "/images/projects/4.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/vitorlatorraca/CorinthiansHTML",
-    previewUrl: "https://globo.com",
+    previewUrl: "https://vitorlatorraca.github.io/CorinthiansHTML/",
   },
   {
     id: 5,

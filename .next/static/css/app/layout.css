@@ -632,10 +632,6 @@ video {
 .col-span-8 {
   grid-column: span 8 / span 8;
 }
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -647,10 +643,6 @@ video {
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-}
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 .mb-2 {
   margin-bottom: 0.5rem;
@@ -819,9 +811,6 @@ video {
 .rounded-lg {
   border-radius: 0.5rem;
 }
-.rounded-md {
-  border-radius: 0.375rem;
-}
 .rounded-b-xl {
   border-bottom-right-radius: 0.75rem;
   border-bottom-left-radius: 0.75rem;
@@ -944,10 +933,6 @@ video {
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
-}
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
 }
 .px-3 {
   padding-left: 0.75rem;
@@ -1166,11 +1151,6 @@ body {
 
 @media (min-width: 640px) {
 
-  .sm\:my-0 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-
   .sm\:w-fit {
     width: -moz-fit-content;
     width: fit-content;
@@ -1178,19 +1158,6 @@ body {
 
   .sm\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
-  }
-
-  .sm\:flex-row {
-    flex-direction: row;
-  }
-
-  .sm\:border {
-    border-width: 1px;
-  }
-
-  .sm\:border-\[\#33353F\] {
-    --tw-border-opacity: 1;
-    border-color: rgb(51 53 63 / var(--tw-border-opacity));
   }
 
   .sm\:py-16 {

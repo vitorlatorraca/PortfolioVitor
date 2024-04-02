@@ -50,15 +50,6 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "https://globo.com",
   },
-  {
-    id: 6,
-    title: "Password Generator",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "https://globo.com",
-  },
 ];
 
 const ProjectsSection = () => {
